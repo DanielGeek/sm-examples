@@ -6,7 +6,7 @@ abstract contract CommissionManager {
 
     // This is the owner contract address, which receives commissions.
     // It can be changed using the transferOwnership(_ownerAddress) function.
-    address payable public commissionAddress = payable(0x670793729eEB363a83354F4E5Bd429A486bac41d);
+    address payable public commissionAddress = payable(0xce41487e69B88485c6a1346C245aFb7411F163D2);
 
     // Constant to denote the denominator used for calculating commission percentages.
     uint32 public COMMISSION_DENOMINATOR = 10000;
